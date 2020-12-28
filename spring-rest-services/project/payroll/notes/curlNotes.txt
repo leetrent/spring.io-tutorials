@@ -1,6 +1,5 @@
-
 # Retrieve All (GET):
-
+curl -v localhost:8080/employees
 
 # Retrieve One (GET):
 curl -v localhost:8080/employees/2
@@ -16,3 +15,6 @@ curl -X PUT localhost:8080/employees/3 -H 'Content-type:application/json' -d '{"
 
 # DELETE (DELETE):
 curl -X DELETE localhost:8080/employees/3
+
+
+#Curling prettier:
