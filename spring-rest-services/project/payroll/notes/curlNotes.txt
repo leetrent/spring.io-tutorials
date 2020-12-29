@@ -1,8 +1,8 @@
 # Retrieve All (GET):
-curl -v localhost:8080/employees
+curl -v localhost:8080/employees | json_pp 
 
 # Retrieve One (GET):
-curl -v localhost:8080/employees/2
+curl -v localhost:8080/employees/2 | json_pp
 
 # Not Found (404):
 curl -v localhost:8080/employees/99
